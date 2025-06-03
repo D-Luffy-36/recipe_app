@@ -13,8 +13,6 @@ class HomeController {
   var categories = <Map<String, dynamic>>[].obs;
 
 
-
-
   Future<List<dynamic>> fetchMeals(String query) async {
     // Logic to fetch meals from the API or local storage
     isLoading(true);
@@ -36,13 +34,4 @@ class HomeController {
     return [];
   }
 
-  // Example method to fetch data
-  void fetchData() {
-    // Logic to fetch data goes here
-  }
-
-  // Example method to handle user interaction
-  void onUserInteraction() {
-    // Logic to handle user interaction goes here
-  }
 }

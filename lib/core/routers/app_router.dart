@@ -1,3 +1,10 @@
+
+
+
+//Tập trung quản lý tên đường dẫn (route names) ở một chỗ,
+// tránh việc “hardcode” string đại trà khắp project.
+// Giúp tránh sai sót về gõ thiếu/đúng dấu, tăng tính maintainable và dễ refactor
+
 abstract class AppRoutes {
   static const String splash = '/';
   static const String home = '/home';
